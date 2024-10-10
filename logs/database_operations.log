@@ -1,0 +1,4 @@
+2024-10-10 22:45:48,352 - INFO - Successfully connected to the database.
+2024-10-10 22:45:48,368 - INFO - Table 'medical_data' created successfully (if not existed).
+2024-10-10 22:45:48,641 - INFO - Successfully inserted 2527 records into 'medical_data' table.
+2024-10-10 22:45:48,641 - INFO - PostgreSQL connection closed successfully.
