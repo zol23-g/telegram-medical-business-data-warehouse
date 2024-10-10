@@ -2,7 +2,8 @@ pandas
 requests 
 telethon
 pyyaml
-dbt-core dbt-postgres
+dbt-core 
+dbt-postgres
 psycopg2
 fastapi 
 uvicorn 
