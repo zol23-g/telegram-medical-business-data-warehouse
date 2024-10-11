@@ -1,0 +1,7 @@
+# This file is used to define your data sources. It tells dbt where to find the raw data in your database
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: medical_data
