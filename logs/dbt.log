@@ -1,0 +1,58 @@
+[0m23:52:02.587776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025367E789B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253677DF3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002536755CA70>]}
+
+
+============================== 23:52:02.591868 | ea346dd5-9811-4930-bce3-ba7fdc65a207 ==============================
+[0m23:52:02.591868 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:52:02.593831 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\zelalem.wubet\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init medical_data_warehouse', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:52:02.607233 [debug] [MainThread]: Starter project path: C:\Users\zelalem.wubet\projects\personal\ten-academy\telegram-medical-business-data-warehouse\venv\Lib\site-packages\dbt\include\starter_project
+[0m23:52:02.662891 [info ] [MainThread]: 
+Your new dbt project "medical_data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:52:02.666396 [info ] [MainThread]: Setting up your profile.
+[0m23:52:02.668397 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m23:52:02.671951 [debug] [MainThread]: Command `dbt init` failed at 23:52:02.671452 after 0.22 seconds
+[0m23:52:02.672959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025368152A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025367E7A9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025367E62F90>]}
+[0m23:52:02.674047 [debug] [MainThread]: Flushing usage events
+[0m23:59:25.494125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BE0C432C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BE07F5100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BE07F6360>]}
+
+
+============================== 23:59:25.497215 | 80d51d84-7337-463e-8d9e-913395435197 ==============================
+[0m23:59:25.497215 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:59:25.499143 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\zelalem.wubet\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:59:25.499143 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\zelalem.wubet\projects\personal\ten-academy\telegram-medical-business-data-warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:59:25.502655 [debug] [MainThread]: Command `dbt run` failed at 23:59:25.502655 after 0.15 seconds
+[0m23:59:25.502655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BE0F22C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BE0C86CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BE02EE780>]}
+[0m23:59:25.503696 [debug] [MainThread]: Flushing usage events
+[0m09:10:49.575618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237F8F316A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237F89AC950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237F90E21B0>]}
+
+
+============================== 09:10:49.575618 | a87fe662-0aa3-46eb-acf2-a065c27d2970 ==============================
+[0m09:10:49.575618 [info ] [MainThread]: Running with dbt=1.8.7
+[0m09:10:49.591722 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\zelalem.wubet\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --models transform_messages', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:10:49.591722 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\zelalem.wubet\projects\personal\ten-academy\telegram-medical-business-data-warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:10:49.599796 [debug] [MainThread]: Command `dbt run` failed at 09:10:49.591722 after 0.21 seconds
+[0m09:10:49.599796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237F8E94E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237F8F316A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237F8AE5D90>]}
+[0m09:10:49.599796 [debug] [MainThread]: Flushing usage events
